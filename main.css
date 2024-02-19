@@ -24,11 +24,26 @@ main {
     color: white;
 }
 /* Main Content */
-.content-container {
+.main-content-container {
     background-color: gray;
+    display:grid;
+    
 }
 .card {
     background-color: white;
     border-radius: 5px;
-    /* TODO:Drop Shadow */
+    
+    -webkit-box-shadow: 6px 10px 22px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 6px 10px 22px 0px rgba(0,0,0,0.37);
+    box-shadow: 6px 10px 22px 0px rgba(0,0,0,0.37);
+}
+
+.project-grid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr
+}
+
+.project button {
+    height: 50px;
+    width: 50px;
 }
