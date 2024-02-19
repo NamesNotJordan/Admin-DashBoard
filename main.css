@@ -2,7 +2,7 @@ main {
 }
 .container {
     display: grid;
-    grid-template-columns: 250px auto;
+    grid-template-columns: 200px auto;
 }
 /* Side-Bar */
 .side-bar {
@@ -22,12 +22,37 @@ main {
     color: white;
 }
 /* Main Content */
+.header {
+    /*TODO:Define Grid layout*/
+    display: grid;
+    grid-template: 50px 1fr / 66% auto auto auto
+}
+.header input {
+    grid-column-start: 1;
+}
+.bell-button {
+    grid-column-start: 3;
+}
+.big-profile {
+    grid-column-start: 1;
+}
+.head-buttons {
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*Todo: add space between*/
+}
 .main-content-container {
     background-color: gray;
     display:grid;
+    grid-template: 1fr 1fr /2fr 1fr
     
 }
 .card {
+    padding: 15px;
+    margin: 5px;
     background-color: white;
     border-radius: 5px;
     
@@ -37,8 +62,10 @@ main {
 }
 
 .project-grid {
+    grid-row: 1 / 2;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr
+    /*TODO: Add gaps between cards */
 }
 
 .project button {
