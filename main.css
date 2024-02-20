@@ -42,7 +42,7 @@ strong {
 .header {
     /*TODO:Define Grid layout*/
     display: grid;
-    grid-template: 2rem 5.2rem / 66% auto auto auto;
+    grid-template: 2rem 5.2rem / 60% auto auto auto;
     gap: 0.5rem;
 
 }
@@ -65,6 +65,11 @@ strong {
 }
 .head-buttons button {
     background-color: var(--secondary-colour);
+    height: 2.2rem;
+    width: 4.5rem;
+    border: #1992d4;
+    color: var(--main-colour);
+    border-radius: 20px;
 }
 .main-content-container {
     background-color: var(--background-colour);
@@ -76,7 +81,7 @@ strong {
 }
 .card {
     padding: 1rem;
-    background-color: white;
+    background-color: var(--main-colour);
     border-radius: 5px;
     
     -webkit-box-shadow: 6px 10px 22px 0px rgba(0,0,0,0.37);
