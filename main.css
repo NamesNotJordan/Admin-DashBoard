@@ -4,6 +4,8 @@
     --main-colour: #ffffff;
     --background-colour: #e2e8f0;
 }
+body {margin: 0;}
+
 .container {
     display: grid;
     grid-template-columns: 200px auto;
@@ -36,10 +38,14 @@ strong {
 }
 .side-bar li{
     display: grid;
-    grid-template-columns: 30% 70%;
 }
 .side-bar a {
     color: white;
+}
+.side-menu {
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 0.6rem;
 }
 /* Main Content */
 .header {
