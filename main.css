@@ -21,6 +21,9 @@ h3 {
 strong {
     font-size: 1rem;
 }
+.icon {
+    vertical-align: middle;
+}
 /* Side-Bar */
 .side-bar {
     background-color: var(--secondary-colour);
