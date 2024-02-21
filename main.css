@@ -23,6 +23,9 @@ h3 {
 strong {
     font-size: 1rem;
 }
+a {
+    text-decoration: none;
+}
 .icon {
     vertical-align: middle;
 }
