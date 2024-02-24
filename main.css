@@ -26,8 +26,8 @@ strong {
 a {
     text-decoration: none;
 }
-.icon {
-    vertical-align: middle;
+i {
+    padding-right: 5px;
 }
 /* Side-Bar */
 .side-bar {
@@ -49,6 +49,10 @@ a {
     margin-bottom: 2rem;
     display: grid;
     gap: 0.6rem;
+}
+.side-menu li a{
+    display: grid;
+    grid-template: 1fr / 1fr 3fr
 }
 /* Main Content */
 .header {
