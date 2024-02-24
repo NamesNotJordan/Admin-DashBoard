@@ -70,7 +70,9 @@ span {
     grid-template: 2rem 5.2rem / 60% auto auto auto;
     gap: 0.5rem;
 
-    padding: 1rem 1rem 0;
+    height: 15vh;
+
+    padding: 10px 10px 0px;
 }
 .header input {
     grid-column-start: 1;
@@ -85,9 +87,9 @@ span {
     grid-column-start: 2;
     grid-column-end: 5;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .head-buttons button {
     background-color: var(--secondary-colour);
@@ -96,6 +98,8 @@ span {
     border: #1992d4;
     color: var(--main-colour);
     border-radius: 20px;
+
+    margin: 10px;
 }
 .main-content-container {
     background-color: var(--background-colour);
@@ -104,6 +108,7 @@ span {
     gap: 1rem;
     
     padding: 0.75rem;
+    height: 85vh;
 }
 .card {
     padding: 1rem;
@@ -125,18 +130,17 @@ span {
     border-left: 5px solid var(--accent-colour);
     min-width: 200px;
     max-width: 500px;
-    min-height: 150px;
+    height: 160px;
 
     padding: 0.5rem;
     display: grid;
-    grid-template: 1fr 2fr 1fr / 1fr 1fr;
+    grid-template: 1fr 2fr 1fr / 2fr 1fr;
 }
 .project-buttons {
-    display: grid;
-    grid-template: 1fr /repeat(3,1fr);
+    display: flex;
+    justify-content: space-between;
 
-    gap: 10px;
-
+    margin-right: 10px;
     grid-row-start: 3;
     grid-column-start: 2;
 }
@@ -151,14 +155,21 @@ span {
     grid-column-start: 1;
     grid-column-end: 2;
 }
-
+.project span {
+    grid-row-start: 2;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
 .announcement-container {
     width: 17rem;
-    height: 55%;
+    height: 50%;
+}
+.announcement-card {
+    padding: 25px;
 }
 .announcement p {
     size: 1rem;
 }
 .trending-container {
-    height: 45%
+    height: 50%
 }
