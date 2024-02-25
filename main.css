@@ -202,8 +202,7 @@ span {
 .announcement-card {
     padding: 25px;
 }
-.announcement {
-}
+
 .announcement p {
     font-size: 0.7rem;
     max-height: 28%;
@@ -218,7 +217,7 @@ span {
 }
 .trend{
     display: grid;
-    grid-template: 1fr 3fr / repeat(2, 1fr);
+    grid-template: repeat(2, 1fr) / 1fr 3fr
 }
 .trend img {
     grid-row-start: 1;
@@ -227,4 +226,10 @@ span {
     height: 3rem;
     aspect-ratio: 1/1;
     border-radius: 30px;
+}
+.trend strong {
+    font-size: 0.8rem;
+}
+.trend span {
+    font-size: 0.75rem;
 }
