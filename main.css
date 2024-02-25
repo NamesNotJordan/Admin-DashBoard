@@ -129,12 +129,12 @@ span {
 .head-buttons button {
     background-color: var(--secondary-colour);
     height: 2.2rem;
-    width: 4.5rem;
+    width: 5rem;
     border: #1992d4;
     color: var(--main-colour);
     border-radius: 20px;
 
-    margin: 10px;
+    margin-left: 40px;
 }
 .main-content-container {
     background-color: var(--background-colour);
